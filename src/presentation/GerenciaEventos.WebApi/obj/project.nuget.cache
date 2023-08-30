@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "CAx88SdYzgm3YLdD0+vwDWEtLkJrkM9uW2dlGBRyjmeSrTnH22XxY58Ih7Kpy+k5kTy+52foEvenIAlWpivPYA==",
+  "success": false,
+  "projectFilePath": "c:\\Projetos\\_Personal\\GerenciaEventos\\src\\presentation\\GerenciaEventos.WebApi\\GerenciaEventos.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.AspNetCore.OpenApi. Não existe nenhum pacote com esta ID nas origens: C:\\Program Files\\dotnet\\library-packs, C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
