@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# SISTEMA DE GERENCIAMENTO DE EVENTOS - API RESTful
 
-`CURSO`
+`Sistemas de Informação - PUC MINAS`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicações Distribuídas`
 
-`SEMESTRE`
+`2/2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto em desenvolvimento é um Sistema de Gerenciamento de Eventos baseado em aplicações de sistemas distribuídos. O sistema consiste em dois módulos principais: o Servidor, que oferece uma API RESTful para permitir que os usuários criem, gerenciem e participem de eventos, com entidades como Eventos, Usuários, Participações, Comentários e Categorias; e o Cliente, que envolve a implementação de um aplicativo mobile para interagir com o módulo Servidor por meio da API construída. O objetivo é criar uma solução escalável e distribuída que permita a realização de diversas operações, desde criar e editar eventos até listar eventos com base em filtros, proporcionando uma experiência abrangente de gerenciamento de eventos para os usuários. O sistema será implantado na nuvem Microsoft Azure para garantir disponibilidade e escalabilidade.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Eliabner Teixeira Marques
+* Endy Keveen Menezes Custodio
+* Felipe Eduardo de Barros
+* Jefferson Luiz Paulinelli Alves
+* João Paulo Bueno dos Santos
 
 ## Orientador
 
-* Nome completo do professor 1
+* Wagner Cipriano da Silva
 
 ## Instruções de utilização
 
