@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "55BK/PhM1A4J8x8g8WRUKQ2uXQgs8JTi6F2aBb4mgennUP0fck5B0T/mtqNH68Xw1PweANBhxhg1OAN/4jBobA==",
+  "dgSpecHash": "ZJTyDXNpr8tysRlkOWdlTDtbowRgHOm9T0zcQVMAA2aWJjzMHPfsvkuOfdXtzZGj8Fe6R6a+jT1Ir71YdhcimQ==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\GerenciaEventos\\GerenciadorEventos\\GerenciadorEventos.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.11\\microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512",
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.11\\microsoft.entityframeworkcore.relational.7.0.11.nupkg.sha512",
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.11\\microsoft.entityframeworkcore.sqlserver.7.0.11.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.3\\microsoft.entityframeworkcore.tools.7.0.3.nupkg.sha512",
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

@@ -22,6 +22,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 builder.Services.AddScoped<ITipoUsuarioService, TipoUsuarioService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<ICategoriaEventoService, CategoriaEventoService>();
+builder.Services.AddScoped<IComentarioService, ComentarioService>();
+builder.Services.AddScoped<IEventoService, EventoService>();
+builder.Services.AddScoped<IInscricaoService, InscricaoService>();
 
 
 var app = builder.Build();
