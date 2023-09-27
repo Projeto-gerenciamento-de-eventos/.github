@@ -66,10 +66,6 @@ namespace GerenciadorEventos.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("EventoID");
-
-                    b.HasIndex("UsuarioID");
-
                     b.ToTable("ComentarioModel");
                 });
 
@@ -107,10 +103,6 @@ namespace GerenciadorEventos.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("CategoriaEventoID");
-
-                    b.HasIndex("OrganizadorID");
-
                     b.ToTable("EventoModel");
                 });
 
@@ -132,10 +124,6 @@ namespace GerenciadorEventos.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("ID");
-
-                    b.HasIndex("EventoID");
-
-                    b.HasIndex("UsuarioID");
 
                     b.ToTable("InscricaoModel");
                 });
@@ -185,103 +173,7 @@ namespace GerenciadorEventos.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("TipoUsuarioID");
-
                     b.ToTable("UsuarioModel");
-                });
-
-            modelBuilder.Entity("GerenciadorEventos.Models.ComentarioModel", b =>
-                {
-                    b.HasOne("GerenciadorEventos.Models.EventoModel", "Evento")
-                        .WithMany("Comentarios")
-                        .HasForeignKey("EventoID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("GerenciadorEventos.Models.UsuarioModel", "Usuario")
-                        .WithMany("Comentarios")
-                        .HasForeignKey("UsuarioID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Evento");
-
-                    b.Navigation("Usuario");
-                });
-
-            modelBuilder.Entity("GerenciadorEventos.Models.EventoModel", b =>
-                {
-                    b.HasOne("GerenciadorEventos.Models.CategoriaEventoModel", "CategoriaEvento")
-                        .WithMany("Eventos")
-                        .HasForeignKey("CategoriaEventoID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("GerenciadorEventos.Models.UsuarioModel", "Organizador")
-                        .WithMany("EventosOrganizados")
-                        .HasForeignKey("OrganizadorID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("CategoriaEvento");
-
-                    b.Navigation("Organizador");
-                });
-
-            modelBuilder.Entity("GerenciadorEventos.Models.InscricaoModel", b =>
-                {
-                    b.HasOne("GerenciadorEventos.Models.EventoModel", "Evento")
-                        .WithMany("Inscricoes")
-                        .HasForeignKey("EventoID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("GerenciadorEventos.Models.UsuarioModel", "Usuario")
-                        .WithMany("Inscricoes")
-                        .HasForeignKey("UsuarioID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Evento");
-
-                    b.Navigation("Usuario");
-                });
-
-            modelBuilder.Entity("GerenciadorEventos.Models.UsuarioModel", b =>
-                {
-                    b.HasOne("GerenciadorEventos.Models.TipoUsuarioModel", "TipoUsuario")
-                        .WithMany("Usuarios")
-                        .HasForeignKey("TipoUsuarioID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("TipoUsuario");
-                });
-
-            modelBuilder.Entity("GerenciadorEventos.Models.CategoriaEventoModel", b =>
-                {
-                    b.Navigation("Eventos");
-                });
-
-            modelBuilder.Entity("GerenciadorEventos.Models.EventoModel", b =>
-                {
-                    b.Navigation("Comentarios");
-
-                    b.Navigation("Inscricoes");
-                });
-
-            modelBuilder.Entity("GerenciadorEventos.Models.TipoUsuarioModel", b =>
-                {
-                    b.Navigation("Usuarios");
-                });
-
-            modelBuilder.Entity("GerenciadorEventos.Models.UsuarioModel", b =>
-                {
-                    b.Navigation("Comentarios");
-
-                    b.Navigation("EventosOrganizados");
-
-                    b.Navigation("Inscricoes");
                 });
 #pragma warning restore 612, 618
         }
