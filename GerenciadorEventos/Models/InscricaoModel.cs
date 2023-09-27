@@ -7,7 +7,5 @@
         public int UsuarioID { get; set; }
         public DateTime DataCadastro { get; set; }
 
-        public EventoModel Evento { get; set; }
-        public UsuarioModel Usuario { get; set; }
     }
 }

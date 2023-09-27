@@ -10,9 +10,5 @@
         public int CapacidadeMaxima { get; set; }
         public int OrganizadorID { get; set; }
         public int CategoriaEventoID { get; set; }
-        public UsuarioModel Organizador { get; set; }
-        public CategoriaEventoModel CategoriaEvento { get; set; }
-        public List<InscricaoModel> Inscricoes { get; set; }
-        public List<ComentarioModel> Comentarios { get; set; }
     }
 }

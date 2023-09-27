@@ -4,7 +4,6 @@ global using GerenciadorEventos.Services;
 global using AutoMapper;
 global using Microsoft.EntityFrameworkCore;
 using GerenciadorEventos;
-using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 

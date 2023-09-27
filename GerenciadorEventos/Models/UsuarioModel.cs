@@ -9,9 +9,5 @@
         public bool Ativo { get; set; }
         public int TipoUsuarioID { get; set; }
 
-        public TipoUsuarioModel TipoUsuario { get; set; }
-        public List<EventoModel> EventosOrganizados { get; set; }
-        public List<InscricaoModel> Inscricoes { get; set; }
-        public List<ComentarioModel> Comentarios { get; set; }
     }
 }

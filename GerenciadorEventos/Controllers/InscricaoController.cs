@@ -30,9 +30,9 @@ namespace GerenciadorInscricaos.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ServiceResponse<InscricaoDto>>> CriarInscricao([FromBody] InscricaoDto dtoUsuaro)
+        public async Task<ActionResult<ServiceResponse<InscricaoDto>>> CriarInscricao([FromBody] InscricaoDto dtoInscricao)
         {
-            return Ok(await _InscricaoService.CriarInscricao(dtoUsuaro));
+            return Ok(await _InscricaoService.CriarInscricao(dtoInscricao));
         }
 
         [HttpDelete("{id:int}")]
