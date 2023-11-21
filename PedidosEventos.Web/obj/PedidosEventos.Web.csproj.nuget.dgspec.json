@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj": {}
+    "c:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj": {}
   },
   "projects": {
-    "C:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj": {
+    "c:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj",
+        "projectUniqueName": "c:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj",
         "projectName": "PedidosEventos.Web",
-        "projectPath": "C:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj",
+        "projectPath": "c:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj",
         "packagesPath": "C:\\Users\\keveen.menezes\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\obj\\",
+        "outputPath": "c:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

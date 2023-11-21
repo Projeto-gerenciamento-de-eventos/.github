@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zFyYVJRz23nA4AITuWQzArnwH68GPWVNyB1+492IKUKfsv6kNmUntazjINrNHQaUR1UzJDoK2catg5yfuQ8mSQ==",
+  "dgSpecHash": "/gj5WDgBzZRwcxXH0uMTtbRgGcxmewKJ++U09F934coqggdzecFdRbFYEboM7XAPgyZyL4BXeNFbGj6+dKWt6g==",
   "success": true,
-  "projectFilePath": "C:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj",
+  "projectFilePath": "c:\\Estudos\\GerenciaEventos\\PedidosEventos.Web\\PedidosEventos.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
