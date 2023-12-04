@@ -1,0 +1,22 @@
+﻿.lateral-area {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 24px 8px 24px 8px;
+    justify-content: flex-start;
+}
+
+.lateral-area .ic {
+    height: 10% !important;
+    background-size: auto;
+    width: 56px;
+    margin-bottom: 35px;
+}
+
+.lateral-area .selecionado {
+    border: 1px solid #f7f7f7;
+    background-color: #dbdede;
+    border-radius: 8px;
+}

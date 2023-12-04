@@ -1,0 +1,55 @@
+﻿$icons-light: (
+    logo-us: '/imgs/logo-us.svg',
+    logo-pjus: '/imgs/logo-pjus.svg',
+    ic-logo-pjus: '/imgs/ic-logo-pjus.svg',
+);
+$icons-dark: ( 
+    logo-us: '/imgs/logo-us.svg',
+    logo-pjus: '/imgs/logo-pjus.svg',
+    ic-logo-pjus: '/imgs/ic-logo-pjus.svg',
+);
+
+
+html {
+    @each $name, $url in $icons-light {
+        .#{$name} {
+            background-image: url(#{$url});
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        --#{$name}:url(#{$url});
+        
+    }
+}
+
+
+html[data-theme="dark"] {
+    @each $name, $url in $icons-dark {
+        .#{$name} {
+            background-image: url("#{$url}");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        --#{$name}:url(#{$url});
+
+    }
+}
+
+.ic {
+    display: inline-block;
+    vertical-align: text-bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+
+.ic-sm {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+

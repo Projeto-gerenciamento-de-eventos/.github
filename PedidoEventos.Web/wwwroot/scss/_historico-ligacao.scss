@@ -1,0 +1,46 @@
+﻿.historico-ligacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.historico-ligacoes .tab {
+    width: 96px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B5252F;
+    margin-bottom: 0px !important;
+}
+
+.historico-ligacoes .listagem-historico {
+    padding: 16px 0px 16px 0px;
+    margin-top: 0px !important;
+}
+
+.historico-ligacoes .listagem-historico .listagem-historico-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.historico-ligacoes .listagem-historico .listagem-historico-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.listagem-historico-table ul {
+    list-style: none;
+}
+
+.listagem-ligacoes-item {
+    display: flex;
+}
+
+.listagem-ligacoes-item .ic {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}

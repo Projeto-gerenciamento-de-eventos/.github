@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<key id="73964adc-0636-45b9-8a70-d1fb6b3a1349" version="1">
+	<creationDate>{{creationDate}}</creationDate>
+	<activationDate>{{activationDate}}</activationDate>
+	<expirationDate>{{expirationDate}}</expirationDate>
+	<descriptor deserializerType="{{deserializerType}}">
+		<descriptor>
+			<encryption algorithm="{{encryptionAlgorithm}}" />
+			<validation algorithm="{{validationAlgorithm}}" />
+			<masterKey p4:requiresEncryption="true" xmlns:p4="http://schemas.asp.net/2015/03/dataProtection">
+				<!-- Warning: the key below is in an unencrypted form. -->
+				<value>{{cookieKey}}</value>
+			</masterKey>
+		</descriptor>
+	</descriptor>
+</key>

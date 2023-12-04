@@ -1,0 +1,136 @@
+﻿.stepper-us {
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: self-start;
+
+        .step {
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            width: 140px;
+
+            &-first {
+                align-items: flex-end;
+            }
+
+            &-end {
+                align-items: flex-start;
+            }
+
+            .button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .circle {
+                width: 32px;
+                height: 32px;
+                background: #D4D4D4;
+                color: #4D5858;
+                border-radius: 90px;
+                border: 1px solid #0353AE;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .line {
+                width: 54px;
+                height: 2px;
+                background-color: #0353AE;
+            }
+
+            .text {
+                margin: 0px auto;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #4D4D4D;
+            }
+
+            &.active {
+                pointer-events: none;
+
+                .circle, .line {
+                    color: #FFFFFF;
+                    background: #0353AE;
+                }
+            }
+
+            &.disabled, &.inactive {
+                pointer-events: none;
+
+                .circle {
+                    border-color: #D4D4D4;
+                    background: #D4D4D4;
+                    color: #FFFFFF;
+                }
+
+                .line {
+                    background-color: #D4D4D4;
+                }
+
+                .text {
+                    color: #8E8E8E;
+                }
+            }
+        }
+    }
+
+    .actions {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .btn-save, .btn-save:focus-visible {
+        text-decoration: none;
+        color: $pjus-red;
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .text-info {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .title {
+        width: 100%;
+        background: #F9F9F9;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4D4D4D;
+        padding: 8px;
+        margin-bottom: 32px;
+    }
+
+    .field {
+        margin-bottom: 40px;
+    }
+
+    .label {
+        font-size: 14px;
+        line-height: 22px;
+        color: #333333;
+    }
+
+    .value {
+        font-size: 16px;
+        line-height: 24px;
+        color: black;
+        font-weight: 500;
+    }
+
+    hr {
+        background: #D9D9D9;
+        height: 4px !important;
+        opacity: 1 !important;
+    }
+}

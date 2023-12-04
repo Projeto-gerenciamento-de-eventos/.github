@@ -1,0 +1,75 @@
+﻿.card {
+	border: 1px solid #dee2e6;
+}
+
+.hover-element {
+	transition: background-color 0.3s ease; 
+}
+
+.hover-element:hover {
+	background-color: #ccc;
+}
+
+.slide-fade-right-enter-active {
+	transition: all 0.2s ease-out;
+}
+  
+.slide-fade-right-leave-active {
+	transition: all 0.2s ease-out;
+}
+  
+.slide-fade-right-enter-from{
+	transform: translateX(20px);
+	opacity: 0;
+}
+
+.slide-fade-right-leave-to {
+	transform: translateX(-20px);
+	opacity: 0;
+}
+
+.slide-fade-left-enter-active {
+	transition: all 0.2s ease-in;
+}
+  
+.slide-fade-left-leave-active {
+	transition: all 0.2s ease-in;
+}
+  
+.slide-fade-left-enter-from{
+	transform: translateX(-20px);
+	opacity: 0;
+}
+
+.slide-fade-left-leave-to {
+	transform: translateX(20px);
+	opacity: 0;
+}
+
+.fade-enter-active {
+	transition: all 1s ease-in;
+}
+  
+.fade-leave-active {
+	transition: all 1s ease-out;
+}
+  
+.fade-enter-from{
+	transform: translateY(ease-in);
+	opacity: 0;
+}
+
+.fade-leave-to {
+	transform: translateY(ease-out);
+	opacity: 0;
+}
+
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.5s ease;
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}

@@ -1,0 +1,14 @@
+﻿$way-font-path: '../fonts' !default;
+
+@mixin fontFace($family,$url) {
+    @font-face {
+        font-family: $family;
+        src: url('#{$url}');
+    }
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}

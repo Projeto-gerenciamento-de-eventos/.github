@@ -1,0 +1,118 @@
+﻿//Badge Padrão
+
+.badge {
+    border-radius: 15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+
+//Titles
+
+.title-5 {
+    //styleName: Títulos/Desktop/H5;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.title-3 { 
+    //styleName: Títulos/Desktop/H3;
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.title-2 {
+    //styleName: Títulos/Desktop/H2;
+    font-family: Verdana;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+//Body
+
+.text-11 {
+//styleName: Body/P11;
+font-family: Lato;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.text-10 {
+//styleName: Body/P10;
+font-family: Lato;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.text-8 {
+    //styleName: Body/P8;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.text-7 {
+    //styleName: Body/P7;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.text-5 {
+    //styleName: Body/P5;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.text-4 {
+    //styleName: Body/P4;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.text-3 {
+    //styleName: Body/P4;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}

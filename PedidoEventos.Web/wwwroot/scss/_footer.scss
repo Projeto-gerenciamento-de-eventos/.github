@@ -1,0 +1,14 @@
+﻿footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+    background: getColor(base-bg);
+    z-index: 99;
+
+    &.lateral__padding {
+        padding: 20px 0 20px 220px;
+    }
+}

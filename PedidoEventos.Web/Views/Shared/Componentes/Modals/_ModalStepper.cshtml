@@ -1,0 +1,75 @@
+﻿
+<div class="modal fade" id="modal-stepper" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+
+
+                <!-- Inicio conteúdo do modal -->
+                <div class="d-flex align-items-center">
+                    <img class="me-3" src="~/imgs/ic-info-blue.svg" />
+                    <p class="modal-title"> Novo lead </p>
+                </div>
+
+                <div class="stepper-us">
+                    <div class="header mt-2">
+                        <div onclick="onClickStep(1)" id="header-step-1" class="step step-first">
+                            <div class="button">
+                                <div class="circle"> 1 </div>
+                                <div class="line"></div>
+                            </div>
+                            <p class="text"> Pesquisa em nossa base </p>
+                        </div>
+                        <div onclick="onClickStep(2)" id="header-step-2" class="step active">
+                            <div class="button">
+                                <div class="line"></div>
+                                <div class="circle"> 2 </div>
+                                <div class="line"></div>
+                            </div>
+                            <p class="text"> Cadastro  </p>
+                        </div>
+                        <div onclick="onClickStep(3)" id="header-step-3" class="step step-end disabled">
+                            <div class="button">
+                                <div class="line"></div>
+                                <div class="circle"> 3 </div>
+                            </div>
+                            <p class="text"> Distribuição </p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        @*Step Pesquisa em nossa base*@
+                        <div id="step-1" class="step-body">
+                            <div class="container-form mx-auto">
+                                
+                                Form Pesquisa em nossa base aqui.
+
+                            </div>
+                        </div>
+
+                        @*Step Cadastro*@
+                        <div id="step-2" class="step-body" style="display:none">
+                            <div class="container">
+                                
+                                Form Cadastro aqui.
+
+                            </div>
+                        </div>
+
+                        @*Step Distribuição*@
+                        <div id="step-3" class="step-body" style="display:none">
+                            <div class="container">
+                                
+                                From Distribuição aqui
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

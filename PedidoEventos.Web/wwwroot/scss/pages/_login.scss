@@ -1,0 +1,60 @@
+﻿.login-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: getColor(base-bg-login);
+    height: 100%;
+    width: 100%;
+
+    &__header {
+        margin-bottom: 55px;
+
+        &__logo {
+            border-right: 2px solid getColor(base-text-login);
+            margin-right: 35px;
+            padding-right: 35px;
+        }
+
+        &__title {
+            color: getColor(base-text-login);
+            font-size: 22px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__body {
+        background: getColor(base-bg);
+        padding: 30px;
+        border-radius: 4px;
+        min-width: 500px;
+
+        &__title {
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        &__description {
+            text-align: center;
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+
+        .link {
+            font-size: 13px;
+        }
+
+        .btn-login {
+            font-size: 17px;
+            width: 100%;
+            padding: 9px;
+        }
+
+        .form-control {
+            font-size: 15px;
+            padding: 13px 10px;
+            opacity: .8;
+        }
+    }
+}

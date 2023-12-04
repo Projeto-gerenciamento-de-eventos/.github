@@ -1,0 +1,92 @@
+﻿.sound-wave {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar {
+    animation-name: wave-lg;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    margin: 0 1.5px;
+    height: 45px;
+    width: 3px;
+    &:nth-child(-n + 7),
+    &:nth-last-child(-n + 7) {
+        animation-name: wave-md;
+    }
+
+    &:nth-child(-n + 3),
+    &:nth-last-child(-n + 3) {
+        animation-name: wave-sm;
+    }
+}
+
+@keyframes wave-sm {
+    0% {
+        opacity: 1;
+        height: 10px;
+        background: linear-gradient(#D32E0A, #225189);
+    }
+
+    100% {
+        opacity: 1;
+        height: 25px;
+        background: linear-gradient(#D32E0A, #225189);
+    }
+}
+
+@keyframes wave-md {
+    0% {
+        opacity: 1;
+        height: 15px;
+        background: linear-gradient(#D32E0A, #225189);
+    }
+
+    100% {
+        opacity: 1;
+        height: 35px;
+        background: linear-gradient(#D32E0A, #225189);
+    }
+}
+
+@keyframes wave-lg {
+    0% {
+        opacity: 1;
+        height: 15px;
+        background: linear-gradient(#D32E0A, #225189);
+    }
+
+    100% {
+        opacity: 1;
+        height: 45px;
+        background: linear-gradient(#D32E0A, #225189);
+    }
+}
+
+
+.fine {
+    animation-name: wave-fine;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    margin: 0 1.5px;
+    height: 45px;
+    width: 3px;
+}
+
+@keyframes wave-fine {
+    0% {
+        opacity: 1;
+        height: 2px;
+        background: linear-gradient(#D32E0A, #225189);
+    }
+
+    100% {
+        opacity: 1;
+        height: 6px;
+        background: linear-gradient(#D32E0A, #225189);
+    }
+}

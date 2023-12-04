@@ -1,0 +1,179 @@
+﻿//Base colors
+$pjus-red: #B5252F;
+$pjus-gray: #4D5858;
+$pjus-black: #0A0A0A;
+$pjus-blue: #225189;
+$pjus-cyan: #24AAB3;
+$pjus-bg: #F7F7F7;
+//Status
+$color-info: #0353AE;
+$color-success: #0E8557;
+$color-danger: #D32E0A;
+$color-warning: #FF4D4F;
+
+
+////Dark colors to give personality theme dark
+$pjus-dark-primary: #383941;
+$pjus-dark-secondary: #40414A;
+
+//Status bgs
+.bg- {
+    &info {
+        background: $color-info !important;
+    }
+
+    &success {
+        background: $color-success !important;
+    }
+
+    &danger {
+        background: $color-danger !important;
+    }
+
+    &warning {
+        background: $color-warning !important;
+    }
+
+    &main {
+        background: $pjus-bg !important;
+    }
+    &black {
+        background: black !important;
+    }
+}
+
+//Color
+
+.color- {
+    &white {
+        color: white !important;
+    }
+
+    &red-1 {
+        color: #B5252F !important;
+    }
+
+    &gray-1 {
+        color: #4D5858 !important;
+    }
+
+    &gray-2 {
+        color: #B8BCBC !important;
+    }
+
+    &gray-lite {
+        color: #d3d3d3 !important;
+    }
+
+    &gray-strong {
+        color: #4D4D4D !important;
+    }
+
+    &black {
+        color: #1B1B1B;
+    }
+
+    &text-1 {
+        color: #000000;
+    }
+
+    text-2 {
+        color: #212529;
+    }
+
+    &text-3 {
+        color: #333333;
+    }
+
+    &text-4 {
+        color: #4D4D4D;
+    }
+    &danger-2{
+        color: #FF4D4F;
+    }
+    &add {
+        color: #0353ae
+    }
+}
+
+//Theme Colors
+// $theme-light: (
+//     base-bg: $gray-100,
+//     base-text: $gray-900,
+//     base-text-secondary: $gray-600,
+//     base-bg-login: $gray-100,
+//     base-text-login: $gray-900,
+//     base-bg-upload: $gray-200,
+//     primary: $pjus-red,
+//     danger: $color-danger,
+//     success: $color-success,
+//     white: $white,
+
+//     active-pagination-text: $white,
+//     active-pagination-bg: $gray-800,
+//     active-lateral-bar: $pjus-red
+// );
+
+$theme-light: ( 
+    base-bg: $gray-100,
+    base-text: $gray-900,
+    base-text-secondary: $gray-600,
+    base-bg-login: $pjus-dark-primary,
+    base-text-login: $white,
+    base-bg-upload: transparent,
+    base-bg-component: $white,
+    base-bg-component-contrast: $white,
+    base-border-component: $gray-400,
+    base-text-button: $white,
+    base-bg-form-control: $white,
+    base-bg-form-control-disabled: $gray-200,
+    bg-table-warning: $color-warning,
+    /*base-odd-row-table: $gray-200,*/
+
+    primary: $pjus-red,
+    danger: $color-danger,
+    success: $color-success,
+    white: $white,
+);
+
+$theme-dark: ( 
+    base-bg: $pjus-dark-primary,
+    base-text: $gray-100,
+    base-text-secondary: $gray-500,
+    base-bg-login: $gray-700,
+    base-text-login: $white,
+    base-bg-upload: #383941,
+    base-bg-component: $pjus-dark-secondary,
+    base-bg-component-contrast: $gray-900,
+    base-border-component: $gray-600,
+    base-text-button: $black,
+    base-bg-form-control: $gray-700,
+    base-bg-form-control-disabled: $gray-900,
+    bg-table-warning: $color-danger,
+    /*base-odd-row-table: $gray-900,*/
+
+    primary: $pjus-cyan,
+    danger: $color-danger,
+    success:$color-success,
+    white: $white,
+);
+
+html {
+    @each $name, $color in $theme-light {
+        --color-#{$name}:#{$color};
+    }
+}
+
+html[data-theme='dark'] {
+    @each $name, $color in $theme-dark {
+        --color-#{$name}: #{$color};
+    }
+}
+
+@function getColor($color-name) {
+    @return var(--color-#{$color-name});
+}
+
+.text-bg-primary {
+    background-color: $pjus-blue !important;
+}
