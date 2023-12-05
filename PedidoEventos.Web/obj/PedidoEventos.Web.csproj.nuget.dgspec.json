@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\PedidoEventos.Web.csproj": {}
+    "c:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\PedidoEventos.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\PedidoEventos.Web.csproj": {
+    "c:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\PedidoEventos.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\PedidoEventos.Web.csproj",
+        "projectUniqueName": "c:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\PedidoEventos.Web.csproj",
         "projectName": "PedidoEventos.Web",
-        "projectPath": "C:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\PedidoEventos.Web.csproj",
+        "projectPath": "c:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\PedidoEventos.Web.csproj",
         "packagesPath": "C:\\Users\\keveen.menezes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\obj\\",
+        "outputPath": "c:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

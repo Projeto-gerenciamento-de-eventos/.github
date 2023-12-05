@@ -32,3 +32,37 @@ c:\Estudos\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\refint\PedidoEvent
 c:\Estudos\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.pdb
 c:\Estudos\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.genruntimeconfig.cache
 c:\Estudos\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\ref\PedidoEventos.Web.dll
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\bin\Debug\net7.0\appsettings.Development.json
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\bin\Debug\net7.0\appsettings.json
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\bin\Debug\net7.0\PedidoEventos.Web.staticwebassets.runtime.json
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\bin\Debug\net7.0\PedidoEventos.Web.exe
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\bin\Debug\net7.0\PedidoEventos.Web.deps.json
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\bin\Debug\net7.0\PedidoEventos.Web.runtimeconfig.json
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\bin\Debug\net7.0\PedidoEventos.Web.dll
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\bin\Debug\net7.0\PedidoEventos.Web.pdb
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\bin\Debug\net7.0\Refit.dll
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.csproj.AssemblyReference.cache
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.AssemblyInfoInputs.cache
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.AssemblyInfo.cs
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.csproj.CoreCompileInputs.cache
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.RazorAssemblyInfo.cache
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.RazorAssemblyInfo.cs
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.sourcelink.json
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\staticwebassets.build.json
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\staticwebassets.development.json
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\staticwebassets\msbuild.PedidoEventos.Web.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\staticwebassets\msbuild.build.PedidoEventos.Web.props
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.PedidoEventos.Web.props
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.PedidoEventos.Web.props
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\staticwebassets.pack.json
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\scopedcss\bundle\PedidoEventos.Web.styles.css
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\scopedcss\projectbundle\PedidoEventos.Web.bundle.scp.css
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.csproj.CopyComplete
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.dll
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\refint\PedidoEventos.Web.dll
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.pdb
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\PedidoEventos.Web.genruntimeconfig.cache
+c:\Users\keveen.menezes\OneDrive\Área de Trabalho\GerenciaEventos\PedidoEventos.Web\obj\Debug\net7.0\ref\PedidoEventos.Web.dll

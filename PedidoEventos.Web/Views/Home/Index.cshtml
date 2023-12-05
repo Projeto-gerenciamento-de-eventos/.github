@@ -10,6 +10,8 @@
     import { Carousel } from "/js/components/Carousel.js";
     import { ErroComponent } from '/js/components/ErroComponent.js';
     import { Footer } from "/js/components/Footer.js";
+    import { ItemCard } from "/js/components/ItemCard.js";
+    import { ItemCarousel } from "/js/components/ItemCarousel.js";
     import { ListCards } from "/js/components/ListCards.js";
     import { Maps } from "/js/components/Maps.js";
     import { ModalGeneric } from "/js/components/ModalGeneric.js";
@@ -23,7 +25,7 @@
 
     const routes = [
         { path: '/', name: 'Home', component: Home },
-        { path: '/detail', name: 'Detail', component: Detail },
+        { path: '/Detail', name: 'Detail', component: Detail },
         { path: '/Erro/:codigoErro', name: 'Erro', component: Erro },
     ]
 
@@ -38,6 +40,8 @@
     app.component('carousel', Carousel);
     app.component('erro-component', ErroComponent);
     app.component('list-cards', ListCards);
+    app.component('item-card', ItemCard);
+    app.component('item-carousel', ItemCarousel);
     app.component('maps', Maps);
     app.component('modal-generic', ModalGeneric);
     app.component('navbar', Navbar);

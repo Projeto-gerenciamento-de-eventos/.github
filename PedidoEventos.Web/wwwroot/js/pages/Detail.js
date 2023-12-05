@@ -15,8 +15,8 @@
 
     template: /*html*/ `
         <div class="row w-100 h-100 p-2 m-0">
-            <detail-item></detail-item>
-			<list-cards></list-cards>
+            <item-card></item-card>
+			<item-carousel></item-carousel>
 		</div>
 `,
 };
