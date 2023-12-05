@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZJTyDXNpr8tysRlkOWdlTDtbowRgHOm9T0zcQVMAA2aWJjzMHPfsvkuOfdXtzZGj8Fe6R6a+jT1Ir71YdhcimQ==",
+  "dgSpecHash": "3gb0rGRlKdYItDknCuV5V9vFd64AcfvTip1JEB5aqoXWND9d4RoknhkslzyFrchGandutzWVf51xxZw74w8w4g==",
   "success": true,
-  "projectFilePath": "C:\\Estudos\\GerenciaEventos\\GerenciadorEventos\\GerenciadorEventos.csproj",
+  "projectFilePath": "C:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\GerenciadorEventos\\GerenciadorEventos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -76,7 +76,11 @@
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\keveen.menezes\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\keveen.menezes\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\keveen.menezes\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }
