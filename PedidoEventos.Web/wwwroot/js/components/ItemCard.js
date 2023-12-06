@@ -8,26 +8,32 @@ const ItemCard = {
     mounted() {},
 
     template: /*html*/ `
-    <div class="row">
-      <div class="col-4">
-        <img
-          src="https://th.bing.com/th/id/OIP.FVNjlHidrI6zkYeZWi-oCgHaE7?rs=1&pid=ImgDetMain"
-          class="d-block object-fit-cover"
-          alt="https://th.bing.com/th/id/OIP.FVNjlHidrI6zkYeZWi-oCgHaE7?rs=1&pid=ImgDetMain">
+    <div class="row m-0 p-0">
+      <div class="col-4 m-0 p-0">
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/OIP.FVNjlHidrI6zkYeZWi-oCgHaE7?rs=1&pid=ImgDetMain"
+            class="d-block object-fit-cover rounded-start"
+            alt="https://th.bing.com/th/id/OIP.FVNjlHidrI6zkYeZWi-oCgHaE7?rs=1&pid=ImgDetMain">
+        </div>
       </div>
       <div class="col-8">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-12">
-              descricao
+        <div class="row h-50">
+          <div class="col-12 p-1">
+            <div class="card bg-warning bg-gradient h-100">
+              
             </div>
           </div>
-          <div class="row">
-            <div class="col-8">
-              locacalizacao
+        </div>
+        <div class="row h-50">
+          <div class="col-8 p-1">
+            <div class="card bg-dark h-100">
+              
             </div>
-            <div class="col-4">
-              resgristo
+          </div>
+          <div class="col p-1">
+            <div class="card bg-dark h-100">
+              
             </div>
           </div>
         </div>

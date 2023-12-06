@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bDAkC2xQgF7xU4ralAlZKy8+y7fvluMozKRA/S0Ec1A=",
+  "Hash": "oSo1bLCowfL1nzNh7GRV90/ayYpG5sPqkrYbPBi/X/U=",
   "Source": "PedidoEventos.Web",
   "BasePath": "_content/PedidoEventos.Web",
   "Mode": "Default",
@@ -10123,25 +10123,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\_carousel-card.scss"
-    },
-    {
-      "Identity": "c:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\wwwroot\\scss\\_colors.scss",
-      "SourceId": "PedidoEventos.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\wwwroot\\",
-      "BasePath": "_content/PedidoEventos.Web",
-      "RelativePath": "scss/_colors.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\_colors.scss"
     },
     {
       "Identity": "c:\\Users\\keveen.menezes\\OneDrive\\Área de Trabalho\\GerenciaEventos\\PedidoEventos.Web\\wwwroot\\scss\\_discardor.scss",

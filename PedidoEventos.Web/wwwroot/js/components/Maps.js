@@ -7,8 +7,7 @@ const Maps = {
 
     methods: {
         initMap() {
-            mapboxgl.accessToken =
-                "pk.eyJ1Ijoia2V2ZWVuIiwiYSI6ImNscHJiem1tcjA4bzAybHM1MW0weWx0bHAifQ.W2vZRJzy5WLpmiwSB6PFOQ";
+            mapboxgl.accessToken = "";//"pk.eyJ1Ijoia2V2ZWVuIiwiYSI6ImNscHJiem1tcjA4bzAybHM1MW0weWx0bHAifQ.W2vZRJzy5WLpmiwSB6PFOQ";
             const mapboxClient = mapboxSdk({
                 accessToken: mapboxgl.accessToken,
             });
